@@ -37,3 +37,7 @@ def jogo_adivinhacao():
                 pontos = pontos - pontos_perdidos
     print()            
     print("Fim do jogo número era o ",numero_secreto)
+
+
+if __name__=="__main__":
+    jogo_adivinhacao()
